@@ -7,6 +7,13 @@
 npm install
 ```
 
+#### Build the project
+
+
+```bash
+npm run build
+```
+
 #### Run the project
 
 
@@ -18,14 +25,14 @@ npm start
 
 
 ```bash
-docker build -t eu.gcr.io/$PROJECT_ID/simple-express:0.0.1 .
+docker build -t abdelrahman/typescript-demo .
 ```
 
 #### Push the Docker image to Cloud Registry
 
 
 ```bash
-docker push eu.gcr.io/$PROJECT_ID/simple-express:0.0.1
+docker push abdelrahman/typescript-demo
 ```
 
 
